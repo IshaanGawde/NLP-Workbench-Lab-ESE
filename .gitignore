@@ -1,0 +1,10 @@
+.env
+.venv/
+__pycache__/
+*.pyc
+*.log
+# Keep large model weights out of ordinary GitHub commits.
+models/
+data/
+results/
+screenshots/

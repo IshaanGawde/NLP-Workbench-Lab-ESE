@@ -1,0 +1,15 @@
+{
+  "project": "NLP Workbench",
+  "github_profile": "https://github.com/IshaanGawde",
+  "deployment_files": [
+    "app.py",
+    "requirements.txt",
+    "Dockerfile",
+    ".dockerignore",
+    ".gitignore",
+    "README.md",
+    "manifest.json"
+  ],
+  "sentiment_model_path": "/content/drive/MyDrive/NLP_Workbench/models/yelp_distilbert_sentiment",
+  "cloud_model_configuration": "Set SENTIMENT_MODEL_ID to the published Hugging Face repository ID when deploying to Cloud Run."
+}
